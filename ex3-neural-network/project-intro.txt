@@ -1,0 +1,1 @@
+In this project I developed a neural network model to recognize handwritten digits. There are two parts of this projects.
