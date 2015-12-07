@@ -1,1 +1,2 @@
-This project is the first part of programming exercist 8 of Stanford's machine learning course on Coursera. In this project I implemented an anomaly detection algorithm to detect servers with failing risk on a network.
+This project is the first part of programming exercist 8 of Stanford's machine learning course on Coursera. In this project I implemented
+an anomaly detection algorithm to detect servers with failing risk on a network.
