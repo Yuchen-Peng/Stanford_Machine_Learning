@@ -8,7 +8,6 @@
 %     plotData.m
 %     gradientDescent.m
 %     computeCost.m
-%     gradientDescentMulti.m
 %
 %
 % x refers to the population size in 10,000s
