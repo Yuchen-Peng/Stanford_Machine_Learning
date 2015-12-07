@@ -1,0 +1,2 @@
+This project is th first part of Stanford's machine learning course on Coursera. In this project I implemented an anomaly detection
+algorithm to detect servers with failing risk on a network.
