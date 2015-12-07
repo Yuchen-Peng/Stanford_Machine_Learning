@@ -3,6 +3,20 @@ students gets admitted into a university, given the applicant's scores on two ex
 regression model to predict whether microchips from a fabrication plant passes quality assurance (QA), given a dataset of test
 results on past microchips, and I added in regularization terms to avoid over-fitting risk.
 
-The first project is summerized in the file ex2.m. Historical data from previous applicants about their exams scores and whether they
-got admitted was used as the training set, given in the file ex2data1.txt, and can be visualized by calling the code in the file
-plotData.m. 
+The first project is summerized in the file ex2.m. 
+
+Historical data from previous applicants about their exams scores and whether they got admitted was used as the training set, given in
+the file ex2data1.txt, and can be visualized by calling the code in the file plotData.m. 
+
+The code in the file costFunction.m calculated the logistic regression cost function (without regularization) by calling the sigmoid
+function in the file sigmoid.m. The parameters of the regression model were determined by calling fminunc function which minimized
+the logistic regression cost function with regards to the training set (the code is included in the file ex2.m). Once the parameters
+were determined, these values were used by the code in the file plotDecisionBoundary.m to plot a boundary between two classies of data
+(admitted v.s. not admitted). And the model can be used to predict whether a particular student will be admitted. For example, for a
+student with an Exam 1 score of 45 and an Exam 2 score of 85, an admission probability of 0.776 was obtained.
+
+The code in the file ex2.m also calculated the prediction accuracy of the classifier with regards to the training set. A training 
+accuracy of 89% was achieved.
+
+
+
