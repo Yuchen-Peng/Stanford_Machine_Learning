@@ -12,11 +12,13 @@ The code in the file costFunction.m calculated the logistic regression cost func
 function in the file sigmoid.m. The parameters of the regression model were determined by calling fminunc function which minimized
 the logistic regression cost function with regards to the training set (the code is included in the file ex2.m). Once the parameters
 were determined, these values were used by the code in the file plotDecisionBoundary.m to plot a boundary between two classies of data
-(admitted v.s. not admitted). And the model can be used to predict whether a particular student will be admitted. For example, for a
-student with an Exam 1 score of 45 and an Exam 2 score of 85, an admission probability of 0.776 was obtained.
+(admitted v.s. not admitted). And the model can be used to predict whether a particular student will be admitted, by calling the code
+in the file predict.m. For example, for a student with an Exam 1 score of 45 and an Exam 2 score of 85, an admission probability of
+0.776 was obtained.
 
 The code in the file ex2.m also calculated the prediction accuracy of the classifier with regards to the training set. A training 
 accuracy of 89% was achieved.
 
+The second project is summerized in the file ex2_reg.m.
 
 
