@@ -1,0 +1,2 @@
+There are two parts in this project: in the first part I applied K-means algorithm for image compression; in the second part I
+applied PCA to perform dimensionality reduction on a dataset of 5000 face images
