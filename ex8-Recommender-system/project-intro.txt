@@ -1,0 +1,2 @@
+This is the second part of the ex8 programming exercise of Stanford's machine learning course on coursera. In this project I developed a
+movie rating system by implementing the collaborative filtering learning algorithm.
