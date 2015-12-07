@@ -1,6 +1,13 @@
 In this project, I developed a linear regression model to predit profit for a restaurant franchise's new outlet, with the data for
 profits of the chains old outlets in various cities and populations from the cities (stored in file 'ex1data1.txt') given as the
-training set.
+training set. The data set was visualized by executing the file ex8.m.
 
 To determine the parameters of the regression model, I applied gradient descent algorithm on the training set such that the cost
-function was minimized.
+function was minimized. The cost function was written in the file computeCost.m. And code in the file gradientDescent.m applied
+gradient descent on the training set while computing the cost by calling computeCost.m in each iteration.
+
+For population = 35,000, the model predicted a profit of 4519.767868.
+
+For population = 70,000, the model predicted a profit of 45342.450129.
+
+The result of this project is summerized by running the file ex8.m.
