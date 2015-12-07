@@ -1,0 +1,2 @@
+In this project I developed a neural network model to recognize handwritten digits. The project covered two programming exercises
+of the Stanford's machine learning course on Cousera: ex3 and ex4.
