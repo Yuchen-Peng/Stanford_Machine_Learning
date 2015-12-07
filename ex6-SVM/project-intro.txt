@@ -1,0 +1,1 @@
+In this project I developed an SVM model to build a spam filters which classified emails into spam and non-spam email with high accuracy.
