@@ -1,0 +1,4 @@
+In this project I developed a regularized polynomial regression model to predict the amount of water flowing out of a dam using
+the change of water level in a reservoir.
+
+The regularization term parameter was determined such that the cost with regard to the cross-validation data set was minimized.
