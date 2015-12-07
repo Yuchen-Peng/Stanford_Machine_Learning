@@ -2,3 +2,7 @@ There are two projects under this directory. In the first project, I developed a
 students gets admitted into a university, given the applicant's scores on two exams. In the second project, I developed a logistic
 regression model to predict whether microchips from a fabrication plant passes quality assurance (QA), given a dataset of test
 results on past microchips, and I added in regularization terms to avoid over-fitting risk.
+
+The first project is summerized in the file ex2.m. Historical data from previous applicants about their exams scores and whether they
+got admitted was used as the training set, given in the file ex2data1.txt, and can be visualized by calling the code in the file
+plotData.m. 
