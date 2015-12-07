@@ -1,0 +1,4 @@
+There are two projects under this directory. In the first project, I developed a logistic regression model to predict whether a
+students gets admitted into a university, given the applicant's scores on two exams. In the second project, I developed a logistic
+regression model to predict whether microchips from a fabrication plant passes quality assurance (QA), given a dataset of test
+results on past microchips, and I added in regularization terms to avoid over-fitting risk.
