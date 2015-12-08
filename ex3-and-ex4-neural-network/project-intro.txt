@@ -1,2 +1,4 @@
 In this project I developed a neural network model to recognize handwritten digits. The project covered two programming exercises
 of the Stanford's machine learning course on Cousera: ex3 and ex4.
+
+Details of this project can be found in the file ex3.pdf and ex4.pdf. Programming codes are summarized in the file ex3.m and ex4.m.
