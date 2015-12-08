@@ -1,4 +1,4 @@
-In this project, I developed a linear regression model to predit profit for a restaurant franchise's new outlet, with the data for
+In this project, I developed a linear regression model to predict profit for a restaurant franchise's new outlet, with the data for
 profits of the chains old outlets in various cities and populations from the cities (stored in file 'ex1data1.txt') given as the
 training set. The data set was visualized by executing the file ex1.m.
 
