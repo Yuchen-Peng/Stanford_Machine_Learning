@@ -21,4 +21,16 @@ accuracy of 89% was achieved.
 
 The second project is summerized in the file ex2_reg.m.
 
+A dataset of test results on past microchips was given in the file ex2data2.txt as the training set, and can be visualized using the
+file plotData.m. Then, by applying the code in the file mapFeature.m, the features were mapped into all polynomial terms of the two 
+text results up to the sixth order. 
+
+The code in the file costFunctionReg.m calculated the cost function and gradient for regularized logistic regression. The parameters
+of the regression model were also determined by calling fminunc function. The function in the file plotDecisionBoundary.m plotted the
+(non-linear) decision boundary that separated the positive and negative examples in the training set once the parameters were
+determined. 
+
+With the learned parameters, a training accuray of 83.05% was achieved.
+
+
 
